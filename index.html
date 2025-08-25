@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Age Calculator</title>
+    <link rel="stylesheet" href="0016.css">
+    </head>
+<body>
+    <h1 class="title">Age Calculator</h1>
+    <div class="inputs">
+        <div class="date">
+            <label for="date-input">
+                enter your birthday
+            </label>
+            <div>
+            <input type="date" id="date-input" name="date" />
+            <span id="invalid-date-msg">
+                *invalid date
+            </span>
+            </div>
+        </div>
+        <button id="calculate-age-btn" disabled>
+            calculate age
+        </button>
+    </div>
+    <div class="results">
+        <div>
+            <p id="years">--</p>
+            <p>years </p>
+        </div>
+        <div>
+            <p id="months">--</p>
+            <p>months </p>
+        </div>
+        <div>
+            <p id="days">--</p>
+            <p>days</p>
+        </div>
+        <button id="calculate-again-btn">
+            calculate again
+        </button>
+    </div>
+    <script src="0016.js"></script>
+</body>
+</html>
