@@ -20,6 +20,3 @@ Visit the link below or clone the repository:
 
 ## 🌐 Demo
 [Age Calculator](https://ice-machine.github.io/AgeCalculator/)
-
-# Age Calculaltor
-calculate the age by the years and months and also the days
